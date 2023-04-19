@@ -1,2 +1,26 @@
-# Crudoprations
-Test project for Azure Pipeline
+# Add any directories, files, or patterns you don't want to be tracked by version control
+bin
+obj
+Debug
+Release
+.vs
+*ReSharper*
+*.exe
+*.dll
+*.obj
+*.licx
+*.pdb
+*.suo
+*.user
+*.cache
+*.resharper
+*.dat
+*.vsmdi
+*.bak
+*.log
+*.ldf
+Releases/release-*
+packages/
+!.nuget/NuGet.exe
+node_modules
+*.config
